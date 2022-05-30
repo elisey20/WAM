@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whack a Mole!</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="favicon-16.png" rel="icon" type="image/x-icon">
+
+</head>
+<body id="body">
+<p id="timer">TIME: 60</p>
+<p id="count" style="margin-bottom: 10px;">SCORE: 0</p>
+<p style="position: absolute; margin-top: -37px;">Choose your mole!</p>
+<input type="image" img src="KK.jpg" style="width:150px; position: absolute; margin-top: 10px;"
+       onclick="speed=1; chooseMole();">
+<p id="KK" style="position: absolute; margin-top: 70px; margin-left: 160px">Polish mole</p>
+<input type="image" img src="KA.jpg" style="width:150px; position: absolute; margin-top: 170px;"
+       onclick="speed=2; chooseMole();">
+<p id="KA" style="position: absolute; margin-top: 230px; margin-left: 160px">Active mole</p>
+<input type="image" img src="KT.jpeg" style="width:150px; position: absolute; margin-top: 330px;"
+       onclick="speed=3; chooseMole();">
+<p id="KT" style="position: absolute; margin-top: 390px; margin-left: 160px">Turbo mole</p>
+<input type="button" class="button" value="Epileptic mode" onclick="ep=-ep; epileptic()">
+<input type="button" class="button" value="STOP GAME" onclick="stopGame()" style="bottom: 35px; top: auto;">
+<div class = "grid">
+    <div class = "cell" id="1"></div>
+    <div class = "cell" id="2"></div>
+    <div class = "cell" id="3"></div>
+    <div class = "cell" id="4"></div>
+    <div class = "cell" id="5"></div>
+    <div class = "cell" id="6"></div>
+    <div class = "cell" id="7"></div>
+    <div class = "cell" id="8"></div>
+    <div class = "cell" id="9"></div>
+    <div class = "cell" id="10"></div>
+    <div class = "cell" id="11"></div>
+    <div class = "cell" id="12"></div>
+    <div class = "cell" id="13"></div>
+    <div class = "cell" id="14"></div>
+    <div class = "cell" id="15"></div>
+    <div class = "cell" id="16"></div>
+</div>
+</body>
+<script src="index.js" id="script"></script>
+</html>

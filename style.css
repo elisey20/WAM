@@ -1,0 +1,49 @@
+.grid {
+    position: sticky;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    max-width: 490px;
+    max-height: 490px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.cell {
+    overflow: hidden;
+    height: 110px;
+    border: 2px solid #ffcd08;
+    width: 110px;
+    background-color: white;
+    background-size: cover;
+}
+body {
+    background: #5800ff;
+}
+p{
+    text-align: center;
+    color: #ffcd08;
+    font-size: 24px;
+    font-family: "Yu Gothic UI Semibold";
+    margin: 5px;
+}
+
+.button{
+    background: white;
+    padding: 9px 10px;
+    border:3px solid #ffcd08;
+    width: 180px;
+    position:absolute;
+    top: 90px;
+    right: 10px;
+    font-family: "Yu Gothic UI Semibold";
+    font-size: 20px;
+    color: #ffcd08;
+}
+.button:hover{
+    background: black;
+}
+.button:active{
+    background: white;
+}
